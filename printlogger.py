@@ -11,7 +11,7 @@ while True:
     timeStamp = datetime.datetime.now().strftime("%Hh%Mm") # se quiser add segundos é %Ss
 
     #obter a data atual
-    date = datetime.datetime.now().strftime("%d-%m-%y")
+    date = datetime.datetime.now().strftime("%d-%m-%y") # está armazenando em dia-mes-ano
 
     #gera o nome do arquivo
     printImg = f"{fileDir}{fileName}_{timeStamp}_{date}.png"
